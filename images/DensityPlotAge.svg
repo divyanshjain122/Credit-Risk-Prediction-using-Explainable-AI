@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2025-06-24T15:06:53.479735</dc:date>
+    <dc:date>2025-06-25T12:50:58.086877</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -665,7 +665,7 @@ z
    </g>
    <g id="FillBetweenPolyCollection_1">
     <defs>
-     <path id="m93bcabb9c6" d="M 88.204602 -47.450847 
+     <path id="m3add249a66" d="M 88.204602 -47.450847 
 L 88.204602 -47.34 
 L 91.048801 -47.34 
 L 93.892999 -47.34 
@@ -1070,13 +1070,13 @@ L 88.204602 -47.450847
 z
 " style="stroke: #4c72b0"/>
     </defs>
-    <g clip-path="url(#p06d7827b1d)">
-     <use xlink:href="#m93bcabb9c6" x="0" y="432" style="fill: #4c72b0; fill-opacity: 0.25; stroke: #4c72b0"/>
+    <g clip-path="url(#pd511dedfc3)">
+     <use xlink:href="#m3add249a66" x="0" y="432" style="fill: #4c72b0; fill-opacity: 0.25; stroke: #4c72b0"/>
     </g>
    </g>
    <g id="FillBetweenPolyCollection_2">
     <defs>
-     <path id="m6d3f4a1fdf" d="M 100.199558 -47.420109 
+     <path id="m533be6f20b" d="M 100.199558 -47.420109 
 L 100.199558 -47.34 
 L 103.100926 -47.34 
 L 106.002293 -47.34 
@@ -1481,8 +1481,8 @@ L 100.199558 -47.420109
 z
 " style="stroke: #dd8452"/>
     </defs>
-    <g clip-path="url(#p06d7827b1d)">
-     <use xlink:href="#m6d3f4a1fdf" x="0" y="432" style="fill: #dd8452; fill-opacity: 0.25; stroke: #dd8452"/>
+    <g clip-path="url(#pd511dedfc3)">
+     <use xlink:href="#m533be6f20b" x="0" y="432" style="fill: #dd8452; fill-opacity: 0.25; stroke: #dd8452"/>
     </g>
    </g>
    <g id="patch_3">
@@ -1900,7 +1900,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p06d7827b1d">
+  <clipPath id="pd511dedfc3">
    <rect x="58.73625" y="27.65625" width="648.30375" height="357.00375"/>
   </clipPath>
  </defs>
