@@ -30,7 +30,7 @@ model_pipeline, X_train_selected, selected_feature_names = load_assets()
 # === Feature Input Form ===
 st.title("Credit Default Prediction Explanation")
 
-st.header("Input Features (Unscaled)")
+st.header("Input Features")
 custom_input = {}
 defaults = {
     'LIMIT_BAL': 100000,
@@ -77,7 +77,7 @@ if st.button("Generate Explanation"):
     st.subheader(f"📊 Probability of Default: **{probability:.3f}**")
 
     # === Plot 1: TreeInterpreter-style bar plot ===
-    st.subheader("1. TreeInterpreter-style Feature Contributions")
+    st.subheader("1. Feature Contributions")
     fig1, ax1 = plt.subplots(figsize=(10, 6))
     ax1.barh(selected_feature_names, feature_contribs)
     ax1.axvline(0, color='black')
@@ -89,7 +89,7 @@ if st.button("Generate Explanation"):
     
 
     # === Plot 2: Waterfall Plot ===
-    st.subheader("2. SHAP-style Waterfall Plot")
+    st.subheader("2. SHAP Waterfall Plot")
     labels = [f"{name} = {custom_input[name]}" for name in selected_feature_names]
     contrib_pairs = list(zip(labels, feature_contribs))
     contrib_pairs.sort(key=lambda x: abs(x[1]))
